@@ -1,0 +1,5 @@
+wechatpy
+openai
+pycryptodome
+flask
+
