@@ -7,7 +7,8 @@
 
 
 # 更新日志
-1、创建：基于https://github.com/zhayujie/chatgpt-on-wechat的微信对话项目，稍加改造，增加企业微信应用的功能。
+1、创建：基于 https://github.com/zhayujie/chatgpt-on-wechat 的微信对话项目，稍加改造，增加企业微信应用的功能。
+2、更新：改用最新的GPT3.5-Turbo接口
 
 # 快速开始
 
@@ -41,8 +42,7 @@ pip3 install wechatpy
 pycryptodome
 pip3 install --upgrade openai
 ```
-注：`openai`使用最新版本，需高于0.25.0。
-
+注：`openai`使用最新版本，需高于等于0.27.0 ，如果之前安装过请单独更新下pip3 install --upgrade openai
 
 ## 配置
 
