@@ -22,8 +22,7 @@ app = Flask(__name__)
 
 @app.route('/wechat', methods=['GET','POST'])
 def handler_msg():
-    WechatEnterpriseChannel().handle()
-    return 'success'
+    return WechatEnterpriseChannel().handle()
 
 class WechatEnterpriseChannel(Channel):
     def __init__(self):
